@@ -12,7 +12,7 @@ It includes the following Maven modules:
 #### Building
 Run `mvn clean package` in the project root.
 
-### Prerequisites
+#### Prerequisites
 You will need a reCAPTCHA version 2 site key and secret key, which can be obtained from the [recpatcha console](https://www.google.com/recaptcha/admin#list)
 
 #### Usage
