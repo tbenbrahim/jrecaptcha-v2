@@ -1,0 +1,23 @@
+<head>
+<title>Are you a robot?</title>
+<style>
+body {
+	font-family: Segoe UI, Arial, Helvetica;
+	width:600px;
+	margin: 20px auto;
+}
+</style>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+
+<body>
+	<h2>Are you a robot?</h2>
+
+	<form method="POST" action="./check">
+		<!-- THE SITE KEY BELOW IS NOT REAL, REPLACE IT WITH YOUR OWN -->
+		<div class="g-recaptcha" data-sitekey="your-site-key"></div>
+		<br>
+		<input type="submit" value="Check">
+	</form>
+	
+</body>
